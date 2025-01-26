@@ -1,5 +1,5 @@
 const infuraProjectId = '115389d7c577460db52a835852e02efc';
-const infuraEndpoint = `https://arbitrum-mainnet.infura.io/v3/${infuraProjectId}`;
+const infuraEndpoint = `https://arbitrum-mainnet.infura.io/v3/115389d7c577460db52a835852e02efc`;
 let web3;
 
 // Initialize Web3
