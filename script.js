@@ -49,6 +49,7 @@ const fetchHyperliquidStats = async (userAddress) => {
             trades: userLogs.length,
         };
     } catch (error) {
+        console.lof("ërror")
         console.error("Error fetching Hyperliquid stats:", error);
         return { volume: 0, trades: 0 };
     }
