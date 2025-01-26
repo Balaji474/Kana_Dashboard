@@ -42,6 +42,7 @@ const fetchHyperliquidStats = async (userAddress) => {
             const amount = web3.utils.fromWei(log.data, 'ether'); // Convert from Wei to Ether
             totalVolume += parseFloat(amount);
         });
+        console.log("hyper: ",totalVolume)
 
         return {
             volume: totalVolume,
